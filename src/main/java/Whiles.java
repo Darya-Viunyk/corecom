@@ -7,12 +7,12 @@ public class Whiles {
         // Is there a shorter way to increment it by 1? (there are a couple of ways actually)
         //***************************************
         int countFrom = 0;
-        int countUpTo = 1;
+        int countUpTo = 10;
         while (countFrom <= countUpTo){
             System.out.println(countFrom);
-            countFrom = countFrom + 1;
+            countFrom++;
         }
-
+       
         //***************************************
         // Why is hello only printed 9 times? Can you fix it by just moving code around?
         // How can you make the while expression more concise?
@@ -21,11 +21,11 @@ public class Whiles {
         boolean truthyness = true;
         int counter = 1;
         do {
-            System.out.println("hello");
             counter++;
+            System.out.println("hello");
             if (counter==10) truthyness = false;
-        } while (truthyness==true);
+        } while (truthyness);
 
     }
 
-}
+

@@ -19,10 +19,10 @@ public class Ifs {
         //***************************************
         String name = "thomas";
         int age = 21;
-        if (!name.equals("thomas") && age == 40) {
+        if (!name.equalsIgnoreCase("thomas") && age == 40) {
             System.out.println("Thomas is the best");
         }
-
+     
 
         //***************************************
         // Get it to output "Thomas is the best"
@@ -35,7 +35,7 @@ public class Ifs {
                 System.out.println("Thomas is the best");
             }
         }
-
+   
         //***************************************
         // Can you fix this so the grades are correct / make more sense, without changing the numbers
         //***************************************
@@ -54,6 +54,10 @@ public class Ifs {
             grade = 'F';
         }
         System.out.println("Grade = " + grade);
+
+        int score = 65;
+char grade;
+
 
     }
 
