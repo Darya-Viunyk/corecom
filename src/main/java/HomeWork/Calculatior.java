@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Calculator {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Enter the fist number:");
+        float num1 = scan.nextFloat();
+
+        System.out.print("Enter the second number:");
+        float num2 = scan.nextFloat();
+
+        float res1 = num1 + num2;
+        float res2 = num1 - num2;
+        float res3 = num1 * num2;
+        float res4 = num1 / num2;
+
+        System.out.println("Calculation result:");
+        System.out.println(res1 + "\n" +res2 + "\n" +res3 + "\n" + res4 + "\n");
+    }
+}
